@@ -1,0 +1,22 @@
+name: Feature request
+description: An idea for something Modeler could do
+labels: [enhancement]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What would you like Modeler to do?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How would you use it?
+  - type: input
+    id: version
+    attributes:
+      label: Modeler build
+  - type: input
+    id: system
+    attributes:
+      label: System

@@ -1,0 +1,29 @@
+name: Bug report
+description: Something in Modeler doesn't work as it should
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to make it happen
+      description: If you know them
+  - type: input
+    id: version
+    attributes:
+      label: Modeler build
+  - type: input
+    id: system
+    attributes:
+      label: System
+  - type: textarea
+    id: log
+    attributes:
+      label: Debug log
+      description: Optional. Help > Debug Log… in Modeler, then Copy (look it over first, it can hold file paths)
+      render: text
