@@ -25,5 +25,5 @@ body:
     id: log
     attributes:
       label: Debug log
-      description: Optional. Help > Debug Log… in Modeler, then Copy (look it over first, it can hold file paths)
+      description: "Optional. Help > Debug Log… in Modeler, then Copy. It may contain sensitive data (file paths, object and file names): look it over and remove anything private before you post, as issues are public."
       render: text
